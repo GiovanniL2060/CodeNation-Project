@@ -1,3 +1,5 @@
+
+
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
@@ -16,7 +18,13 @@ img {
 h2 {
     text-align:center;
 }
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+}
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
