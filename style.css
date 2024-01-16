@@ -14,6 +14,8 @@ img {
   width:600px;
   height:385px;
   justify-content: center;
+  border: 5px solid black;
+  
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -47,8 +49,19 @@ img {
 .section {
     border: 5px black solid;
     margin:10px;
+    padding: 15px;
+}
+
+.section-1 {
+  border: 5px black solid;
+  margin:10px;
+  padding: 15px;
 }
 
 body {
   background-color: #01FF57;
+}
+
+.Title {
+  text-decoration: underline;
 }
